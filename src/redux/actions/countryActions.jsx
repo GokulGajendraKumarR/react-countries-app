@@ -7,6 +7,7 @@ export const LOAD_MORE_COUNTRIES = "LOAD_MORE_COUNTRIES";
 
 // Action Creators
 export const fetchCountries = () => async (dispatch) => {
+  dispatch({ type: "FETCH_COUNTRIES_START" });
   try {
     const res = await axios.get("https://restcountries.com/v2/all");
     dispatch({

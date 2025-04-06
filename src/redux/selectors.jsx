@@ -8,3 +8,5 @@ export const selectRegion = (state) =>
 
 export const selectVisibleCount = (state) =>
   selectCountriesState(state).visibleCount || 12;
+
+export const selectIsLoading = (state) => state.countries?.isLoading || false; 

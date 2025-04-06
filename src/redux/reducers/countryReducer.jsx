@@ -13,6 +13,9 @@ const initialState = {
 
 export default function countryReducer(state = initialState, action) {
   switch (action.type) {
+    case "FETCH_COUNTRIES_START":
+      return { ...state, isLoading: true };
+
     case FETCH_COUNTRIES:
       return {
         ...state,
