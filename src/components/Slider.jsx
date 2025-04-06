@@ -63,7 +63,7 @@ const Slider = () => {
             </div>
           </div>
 
-          {/* Second static card (untouched) */}
+          {/* Second  card */}
           <div className="custom-slider-card d-flex flex-column justify-content-center align-items-center">
             <div
               className="card-content d-flex flex-column align-items-center"
