@@ -14,7 +14,7 @@ import Slider from "../components/Slider";
 import Footer from "../components/Footer";
 import RegionFilter from "../components/RegionFilter";
 import "../style/Home.css";
-import Welcome from "../components/welcome";
+import Welcome from "../components/Welcom";
 
 const Home = () => {
   const dispatch = useDispatch();
