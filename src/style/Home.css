@@ -1,0 +1,139 @@
+.line {
+  height: 5px;
+  background-color: #3d3d3d;
+  width: "40%";
+}
+
+.header {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #3d3d3d;
+}
+.filter {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3d3d3d;
+}
+.welcome {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  color: #3d3d3d;
+}
+.countries-name {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #3d3d3d;
+}
+.countries-region {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  color: #3d3d3d;
+}
+
+.footer {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: #3d3d3d;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: #000000;
+  transition: transform 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #0056b3;
+}
+
+.social-icon-container {
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+}
+
+.custom-slider-wrapper {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 1rem;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.custom-slider-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.custom-slider-card {
+  flex: 0 0 auto;
+  width: 807px;
+  height: 498px;
+  border: 2px solid black;
+  margin-right: 16px;
+}
+
+.custom-slider-card img {
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.slider-indicator {
+  display: flex;
+  gap: 12px;
+  font-size: 30px;
+  color: #333;
+}
+
+.slider-indicator .arrow {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.slider-indicator .dot {
+  font-size: 45px;
+  color: gray;
+}
+
+.slider-indicator .active-dot {
+  color: black;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+@media (max-width: 767.98px) {
+  .custom-slider-wrapper {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 10px;
+  }
+
+  .custom-slider-card {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+  }
+
+  .custom-slider-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .slider-indicator {
+    font-size: 24px;
+    flex-wrap: wrap;
+  }
+
+  .slider-indicator .dot {
+    font-size: 30px;
+  }
+}

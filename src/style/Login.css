@@ -1,0 +1,159 @@
+.login-container {
+  background-color: #ffffff;
+}
+
+.login-form {
+  padding: 40px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-image {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+.social-icon-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.67px solid #3e3e3e;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-icon {
+  font-size: 20px;
+  color: #3e3e3e;
+}
+
+.social-icon-container:hover {
+  background-color: #3e3e3e;
+}
+
+.social-icon-container:hover .social-icon {
+  color: #ffffff;
+}
+
+.login-image {
+  text-align: right;
+}
+
+.sign-in-headingsBold {
+  font-family: "Noto Sans", sans-serif;
+  color: #3d3d3d;
+  font-weight: 700;
+}
+
+.sign-in-headingsNarrow {
+  font-family: "Noto Sans", sans-serif;
+  color: #3d3d3d;
+  font-weight: 600;
+}
+
+.custom-button {
+  background-color: #3c3c3c;
+  border-color: #3c3c3c;
+  font-family: "Noto Sans";
+  color: #fcfcfc;
+  border-radius: 0;
+  font-weight: 600;
+}
+
+.custom-button:hover {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background-color: #d3d3d3;
+}
+
+.divider-text {
+  padding: 0 10px;
+  color: #6c757d;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-control {
+  border: 2px solid #3e3e3e !important;
+  border-radius: 0 !important;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+
+.form-check-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 0.1em;
+  border: 2px solid #3e3e3e !important;
+  border-radius: 0 !important;
+}
+
+.form-check-label {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  color: #3d3d3d;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+input[type="checkbox"] {
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+}
+
+.form-check label {
+  margin-left: 10px;
+  line-height: 1;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 4px;
+}
